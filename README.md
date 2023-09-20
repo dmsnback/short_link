@@ -2,6 +2,8 @@
 
 # YaCut
 
+
+
 - [Описание](#Описание)
 - [Технологии](#Технологии)
 - [Запуск](#Запуск)
@@ -70,6 +72,14 @@ python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+- __В корневой директории создайте файл__ ```.env```
+```python
+FLASK_APP=yacut
+FLASK_ENV=development
+DATABASE_URI=sqlite:///db.sqlite3
+SECRET_KEY=SUPER_SECRET_KEY
+```
+
 - __Выполните миграции__
 ```python
 flask db migrate
@@ -90,5 +100,3 @@ flask run
 - [Титенков Дмитрий](https://github.com/dmsnback)
 
 [Вернуться в начало](#Начало)
-
-
