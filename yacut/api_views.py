@@ -50,7 +50,7 @@ def create_id():
         db.session.add(url)
         db.session.commit()
         return jsonify(
-            url=url.original, short_link='http://localhost/'+url.short
+            url=url.original, short_link='http://localhost/' + url.short
         ), 201
     else:
         raise InvalidAPIUsage(
