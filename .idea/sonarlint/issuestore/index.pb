@@ -16,3 +16,12 @@ H
 yacut/templates/500.html,4/2/423ec5c86f6979a6f9fde278f884f5774ba34591
 H
 yacut/templates/404.html,b/9/b958977de6892a3461f07ce02115d51ed01f6a85
+?
+yacut/models.py,b/6/b6a687dc3564ced083c82757072b4447542cc93a
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+C
+tests/test_views.py,0/8/084b05c6275572af25aee29a8000551255535a13
+H
+yacut/templates/url.html,0/b/0b706fbea6d357145c26d45b801914469db86bb3

@@ -4,10 +4,8 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField, URLField, ValidationError
 from wtforms.validators import DataRequired, Optional
 
+from .constants import PATTERN
 from .models import URLMap
-
-
-PATTERN = r'^[a-zA-Z0-9]+'
 
 
 def is_correct_short_url(custom_id):

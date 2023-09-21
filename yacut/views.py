@@ -26,7 +26,7 @@ def index_view():
             flash(message=f'Имя {short_name} уже занято!')
             form.custom_id.data = None
             return render_template('url.html', form=form)
-        if short_name is None or short_name == '':
+        if not short_name:
             form.custom_id.data = get_unique_short_id()
         if len(form.custom_id.data) > 16:
             flash(message='Указано недопустимое имя для короткой ссылки')
