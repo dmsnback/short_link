@@ -10,9 +10,6 @@ from .models import URLMap
 from .views import get_unique_short_id
 
 
-
-
-
 @app.route('/api/id/<string:short_id>/', methods=['GET'])
 def get_url(short_id):
     url = URLMap.query.filter_by(short=short_id).first()
