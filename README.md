@@ -9,7 +9,7 @@
 - [Запуск](#Запуск)
 - [Автор](#Автор)
 
-<a name="Описание"></a>
+[](#Описание)
 
 Проект __YaCut__ — это сервис укорачивания ссылок. 
 
@@ -30,7 +30,7 @@
 Примеры запросов к API, варианты ответов и ошибок приведены в спецификации ```openapi.yml```
 #
 
-<a name="Технологии"></a>
+
 ### Технологии
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
